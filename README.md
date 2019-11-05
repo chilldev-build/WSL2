@@ -6,5 +6,8 @@ server.listen(port, "127.0.0.1"); </br>
 https://github.com/chilldev-build/back_end_project/tree/dev </br>
 
 ## For binding 127.0.0.1 3000 see app.js on expressapi repo
-</br>
-</br>
+    //binding the port for WSL 2 </br>
+app.listen('3333',"127.0.0.1", function() { </br>
+    console.log('Listening on port 3333'); </br>
+});</br>
+https://github.com/chilldev-build/expressapi/tree/routes </br>
